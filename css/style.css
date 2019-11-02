@@ -49,6 +49,11 @@ p {
 /*******************
 ****** Footer ******
 *******************/
+
+
+/** centrage des div + tous les H2/H5 du footer */ 
+
+
 .footer_h2{
     padding-top: 2em;
     padding-bottom: 1rem;
@@ -65,7 +70,7 @@ footer div {
     padding-bottom: 2.6rem;
 }
 
-
+/** font + couleur du titre PAJENEWS */
 .footer_page--green{
     color: #17B978;
     font-weight: bolder
@@ -81,11 +86,36 @@ footer div {
     color: #C5C5C5;
 }
 
+/** icone des réseaux sociaux */
 .fab{
     padding: 0.3em;
 }
+.footer_reseau {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer div > div { /* écartement des divs du footer entre elles */
+    margin: 1rem;
+}
+
+footer div > p { /* écartement des P du footer entre eux */
+    padding-bottom: 1em;
+}
 
 
+/** début des copyright */
+
+.copyright {  
+    color: white;
+    background-color: #151515;
+    font-size: .9rem;
+    text-align: center;
+    padding: 1rem 1rem;  
+}
+
+
+/* couleur des liens */
 .footer_green {
     color: #16B374;
 }
@@ -98,31 +128,7 @@ footer > .footer_bg {
     background-color: #222222;
 }
 
-footer div > div {
-    margin: 1rem;
-}
-
-footer div > p {
-    padding-bottom: 1em;
-}
-
-.footer_reseau {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-/** début des copyright */
-
-.copyright {  
-    color: white;
-    background-color: #151515;
-    font-size: .9rem;
-    text-align: center;
-    padding: 1rem 1rem;  
-}
-
-.copyright p {
-    margin: 0;
-}
+/* hover des liens */ 
 
 .footer_green:hover{
     color: #16B374;
@@ -130,6 +136,8 @@ footer div > p {
 .footer_blue:hover{
     text-decoration: none;
 }
+
+/* cadrage de l'encart copyright */ 
 
 .copyright{
     margin-top: 0;
@@ -156,24 +164,3 @@ footer div > p {
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-.blue{
-    background-color: blue;
-    height: 100px;
-    
-}
-
-.red{
-    background-color: red;
-    height: 100px;
-}
-
-.yellow{
-    background-color: yellow;
-    height: 100px;
-}
-
-.green{
-    background-color: green;
-    height: 100px;
-}

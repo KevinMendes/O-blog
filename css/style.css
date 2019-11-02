@@ -2,3 +2,32 @@ body {
     background-color: 777;
     font-family: 'Montserrat', sans-serif;
 }
+
+.footer_green {
+    color: #16B374;
+}
+
+.footer_blue {
+    color: #0466D0;
+}
+
+footer > .jumbotron {
+    background-color: #222222;
+}
+
+.copyright {
+    
+    color: white;
+    background-color: #151515;
+    margin-top: -2em;
+    text-align: center;
+    padding: 1em 0.5em .3em 0;
+    
+}
+
+.footer_green:hover{
+    color: #16B374;
+}
+.footer_blue:hover{
+    text-decoration: none;
+}

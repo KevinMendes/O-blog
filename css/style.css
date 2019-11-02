@@ -98,3 +98,70 @@ footer > .jumbotron {
     text-decoration: none;
 }
 
+body {
+    background-color: #777;
+    font-family: 'Montserrat', sans-serif;
+    color: #464646;
+}
+
+
+
+
+/***************
+*!DEBUT FOOTER!* 
+****************/
+/** style du gros bloc de CSS */
+
+.footer_page--green{
+    color: #17B978;
+    font-weight: bolder
+}
+
+.footer_page--white{
+    color: white;
+    font-weight: bolder;
+}
+
+
+.footer_police--grey{
+    color: #C5C5C5;
+}
+
+/* changement de la taille pour gérer la diffusion */
+.footer_flex {
+    width: 33vw;
+}
+
+.footer_green {
+    color: #16B374;
+}
+
+.footer_blue {
+    color: #0466D0;
+}
+
+footer > .jumbotron {
+    background-color: #222222;
+}
+
+/** début des copyright */
+
+.copyright {
+    
+    color: white;
+    background-color: #151515;
+    margin-top: -2.3em;
+    text-align: center;
+    padding: 2em 0.7em .3em 0;
+    font-size: 0.9em;
+    
+}
+
+.footer_green:hover{
+    color: #16B374;
+}
+.footer_blue:hover{
+    text-decoration: none;
+}
+
+

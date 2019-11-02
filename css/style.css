@@ -3,6 +3,21 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.footer_page--green{
+    color: #17B978;
+}
+
+.footer_page--white{
+    color: white;
+}
+
+
+.footer_police--grey{
+    color: #C5C5C5;
+}
+
+
+
 .footer_green {
     color: #16B374;
 }
@@ -31,3 +46,4 @@ footer > .jumbotron {
 .footer_blue:hover{
     text-decoration: none;
 }
+

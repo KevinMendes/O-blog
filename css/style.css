@@ -103,6 +103,24 @@ footer div > p { /* écartement des P du footer entre eux */
     padding-bottom: 1em;
 }
 
+/** fixation des dimensions des images */
+
+.footer_img {
+    min-height:0;
+    min-width:0;
+}
+
+/* position post catégory */
+
+.footer_posts{
+    margin: 0;
+}
+
+.footer_hotfix{
+    margin: 0;
+}
+
+
 
 /** début des copyright */
 
@@ -114,8 +132,18 @@ footer div > p { /* écartement des P du footer entre eux */
     padding: 1rem 1rem;  
 }
 
+.footer_desc{
+    font-size: 0.8rem;
+}
+
+.footer_time{
+    font-size: 0.5rem;
+}
+
 
 /* couleur des liens */
+
+
 .footer_green {
     color: #16B374;
 }

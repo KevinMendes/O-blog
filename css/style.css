@@ -1,6 +1,6 @@
 body {
     background-color: #777;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #464646;
     padding: 0;
     margin: 0;
@@ -51,6 +51,27 @@ p {
 ****** Footer ******
 *******************/
 
+
+/** centrage des div + tous les H2/H5 du footer */ 
+
+
+.footer_h2{
+    padding-top: 2em;
+    padding-bottom: 1rem;
+}
+footer div {
+    margin: 1em auto 0;
+    padding-bottom: 0.4em;
+
+}
+
+.footer_flex h5{
+    color: white;
+    font-weight: 900;
+    padding-bottom: 2.6rem;
+}
+
+/** font + couleur du titre PAJENEWS */
 .footer_page--green{
     color: #17B978;
     font-weight: bolder
@@ -66,11 +87,36 @@ p {
     color: #C5C5C5;
 }
 
-/* changement de la taille pour gérer la diffusion */
-.footer_flex {
-    width: 33vw;
+/** icone des réseaux sociaux */
+.fab{
+    padding: 0.3em;
+}
+.footer_reseau {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
+footer div > div { /* écartement des divs du footer entre elles */
+    margin: 1rem;
+}
+
+footer div > p { /* écartement des P du footer entre eux */
+    padding-bottom: 1em;
+}
+
+
+/** début des copyright */
+
+.copyright {  
+    color: white;
+    background-color: #151515;
+    font-size: .9rem;
+    text-align: center;
+    padding: 1rem 1rem;  
+}
+
+
+/* couleur des liens */
 .footer_green {
     color: #16B374;
 }
@@ -83,21 +129,7 @@ footer > .footer_bg {
     background-color: #222222;
 }
 
-/** début des copyright */
-
-.copyright {
-    
-    color: white;
-    background-color: #151515;
-    font-size: .9rem;
-    text-align: center;
-    padding: 1rem 1rem;
-    
-}
-
-.copyright p {
-    margin: 0;
-}
+/* hover des liens */ 
 
 .footer_green:hover{
     color: #16B374;
@@ -106,10 +138,13 @@ footer > .footer_bg {
     text-decoration: none;
 }
 
+/* cadrage de l'encart copyright */ 
+
 .copyright{
     margin-top: 0;
     padding-top: 1.8em;
 }
+
 
 
 

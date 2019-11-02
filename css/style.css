@@ -3,12 +3,22 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
+
+/***************
+*!DEBUT FOOTER!* 
+****************/
+/** style du gros bloc de CSS */
+
 .footer_page--green{
     color: #17B978;
+    font-weight: bolder
 }
 
 .footer_page--white{
     color: white;
+    font-weight: bolder;
 }
 
 
@@ -16,7 +26,10 @@ body {
     color: #C5C5C5;
 }
 
-
+/* changement de la taille pour gérer la diffusion */
+.footer_flex {
+    width: 33vw;
+}
 
 .footer_green {
     color: #16B374;
@@ -30,13 +43,16 @@ footer > .jumbotron {
     background-color: #222222;
 }
 
+/** début des copyright */
+
 .copyright {
     
     color: white;
     background-color: #151515;
-    margin-top: -2em;
+    margin-top: -2.3em;
     text-align: center;
-    padding: 1em 0.5em .3em 0;
+    padding: 2em 0.7em .3em 0;
+    font-size: 0.9em;
     
 }
 

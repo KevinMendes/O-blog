@@ -1,6 +1,6 @@
 body {
     background-color: #777;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #464646;
     padding: 0;
     margin: 0;
@@ -49,6 +49,22 @@ p {
 /*******************
 ****** Footer ******
 *******************/
+.footer_h2{
+    padding-top: 2em;
+    padding-bottom: 1rem;
+}
+footer div {
+    margin: 1em auto 0;
+    padding-bottom: 0.4em;
+
+}
+
+.footer_flex h5{
+    color: white;
+    font-weight: 900;
+    padding-bottom: 2.6rem;
+}
+
 
 .footer_page--green{
     color: #17B978;
@@ -65,7 +81,9 @@ p {
     color: #C5C5C5;
 }
 
-/* changement de la taille pour gérer la diffusion */
+.fab{
+    padding: 0.3em;
+}
 
 
 .footer_green {
@@ -80,16 +98,30 @@ footer > .footer_bg {
     background-color: #222222;
 }
 
+footer div > div {
+    margin: 1rem;
+}
+
+footer div > p {
+    padding-bottom: 1em;
+}
+
+.footer_reseau {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 /** début des copyright */
 
-.copyright {
-    
+.copyright {  
     color: white;
     background-color: #151515;
     font-size: .9rem;
     text-align: center;
-    padding: 1rem 1rem;
-    
+    padding: 1rem 1rem;  
+}
+
+.copyright p {
+    margin: 0;
 }
 
 .footer_green:hover{
@@ -102,4 +134,46 @@ footer > .footer_bg {
 .copyright{
     margin-top: 0;
     padding-top: 1.8em;
+}
+
+
+
+
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+.blue{
+    background-color: blue;
+    height: 100px;
+    
+}
+
+.red{
+    background-color: red;
+    height: 100px;
+}
+
+.yellow{
+    background-color: yellow;
+    height: 100px;
+}
+
+.green{
+    background-color: green;
+    height: 100px;
 }

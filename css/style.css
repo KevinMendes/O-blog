@@ -66,9 +66,7 @@ p {
 }
 
 /* changement de la taille pour gérer la diffusion */
-.footer_flex {
-    width: 33vw;
-}
+
 
 .footer_green {
     color: #16B374;

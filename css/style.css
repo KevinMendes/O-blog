@@ -4,6 +4,10 @@ body {
     color: #464646;
 }
 
+/*******************
+****** Navbar ******
+*******************/
+
 .navbar {
     padding: 0;
 }
@@ -34,3 +38,53 @@ body {
 .navbar-nav {
     background-color: #17B978;
 }
+
+
+/*******************
+****** Footer ******
+*******************/
+
+.footer_page--green{
+    color: #17B978;
+}
+
+.footer_page--white{
+    color: white;
+}
+
+
+.footer_police--grey{
+    color: #C5C5C5;
+}
+
+
+
+.footer_green {
+    color: #16B374;
+}
+
+.footer_blue {
+    color: #0466D0;
+}
+
+footer > .jumbotron {
+    background-color: #222222;
+}
+
+.copyright {
+    
+    color: white;
+    background-color: #151515;
+    margin-top: -2em;
+    text-align: center;
+    padding: 1em 0.5em .3em 0;
+    
+}
+
+.footer_green:hover{
+    color: #16B374;
+}
+.footer_blue:hover{
+    text-decoration: none;
+}
+

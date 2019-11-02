@@ -48,72 +48,6 @@ body {
 
 .footer_page--green{
     color: #17B978;
-}
-
-.footer_page--white{
-    color: white;
-}
-
-
-.footer_police--grey{
-    color: #C5C5C5;
-}
-
-
-
-.footer_green {
-    color: #16B374;
-}
-
-.footer_blue {
-    color: #0466D0;
-}
-
-.jumbotron {
-    margin: 0;
-}
-
-footer > .jumbotron {
-    background-color: #222222;
-}
-
-.copyright {
-    
-    color: white;
-    background-color: #151515;
-    font-size: .9rem;
-    text-align: center;
-    padding: 1rem 1rem;
-    
-}
-
-.copyright p {
-    margin: 0;
-}
-
-.footer_green:hover{
-    color: #16B374;
-}
-.footer_blue:hover{
-    text-decoration: none;
-}
-
-body {
-    background-color: #777;
-    font-family: 'Montserrat', sans-serif;
-    color: #464646;
-}
-
-
-
-
-/***************
-*!DEBUT FOOTER!* 
-****************/
-/** style du gros bloc de CSS */
-
-.footer_page--green{
-    color: #17B978;
     font-weight: bolder
 }
 
@@ -150,10 +84,9 @@ footer > .jumbotron {
     
     color: white;
     background-color: #151515;
-    margin-top: -2.3em;
+    font-size: .9rem;
     text-align: center;
-    padding: 2em 0.7em .3em 0;
-    font-size: 0.9em;
+    padding: 1rem 1rem;
     
 }
 

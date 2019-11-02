@@ -1,4 +1,36 @@
 body {
-    background-color: 777;
+    background-color: #777;
     font-family: 'Montserrat', sans-serif;
+    color: #464646;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+    margin: .5rem 1rem;
+}
+
+.navbar-toggler {
+    margin: .5rem 1rem;
+    color: #464646;
+    
+}
+
+.navbar-brand span {
+    color: #17B978;
+}
+
+.nav-link {
+    margin: .3rem 1rem;
+    color: white!important;
+    font-size: 1rem;
+}
+
+.navbar-nav {
+    background-color: #17B978;
 }

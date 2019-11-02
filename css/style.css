@@ -74,7 +74,7 @@ body {
     color: #0466D0;
 }
 
-footer > .jumbotron {
+footer > .footer_bg {
     background-color: #222222;
 }
 
@@ -99,4 +99,5 @@ footer > .jumbotron {
 
 .copyright{
     margin: -2.2em;
+    padding-top: 1.8em;
 }

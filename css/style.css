@@ -73,7 +73,7 @@ footer div {
 .footer_flex h5{
     color: white;
     font-weight: 900;
-    padding-bottom: 2.6rem;
+    padding-bottom: 2rem;
 }
 
 /** font + couleur du titre PAJENEWS */
@@ -101,6 +101,10 @@ footer div {
     padding-bottom: 2rem;
 }
 
+.fab:hover{
+   color: #16B374;
+}
+
 footer div > div { /* écartement des divs du footer entre elles */
     margin: 1rem;
 }
@@ -123,7 +127,7 @@ footer div > p { /* écartement des P du footer entre eux */
 
 .footer_desc{
     font-size: 0.9rem;
-    color: white;
+    color: #CCCCCC;
 }
 
 .footer_time{
@@ -142,6 +146,32 @@ footer div > p { /* écartement des P du footer entre eux */
     margin: 0;
 }
 
+/** Catégorie */
+
+.footer_li--border{
+    list-style: none;
+    border-bottom: solid 1px #393939;
+    color: #CCCCCC;
+  
+}
+
+.footer_li{
+    color: #CCCCCC;
+    padding: 0.5rem 0;
+}
+
+.footer_li a{
+    color: #CCCCCC
+}
+
+.footer_link--general:hover{
+    color: #16B374;
+    text-decoration: none;
+}
+
+.footer_ul{
+    padding: 0;
+}
 
 
 

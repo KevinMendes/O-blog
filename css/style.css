@@ -50,7 +50,12 @@ p {
 /*******************
 ****** Footer ******
 *******************/
+/* suppression du margin des containers */
 
+.container{
+    margin: 0;
+    padding: 0;
+}
 
 /** centrage des div + tous les H2/H5 du footer */ 
 
@@ -104,6 +109,42 @@ footer div > p { /* écartement des P du footer entre eux */
     padding-bottom: 1em;
 }
 
+/** fixation des dimensions des images */
+
+.footer_img {
+    min-height:0;
+    min-width:0;
+}
+/* Popular Posts */
+
+.footer_wrap--posts{
+    margin: 0 0 3rem 1rem;
+}
+
+.footer_desc{
+    font-size: 0.9rem;
+    color: white;
+}
+
+.footer_time{
+    font-size: 0.7rem;
+}
+
+
+
+/* position post catégory */
+
+.footer_posts{
+    margin: 0;
+}
+
+.footer_hotfix{
+    margin: 0;
+}
+
+
+
+
 
 /** début des copyright */
 
@@ -117,6 +158,8 @@ footer div > p { /* écartement des P du footer entre eux */
 
 
 /* couleur des liens */
+
+
 .footer_green {
     color: #16B374;
 }

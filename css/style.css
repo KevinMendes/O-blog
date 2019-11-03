@@ -25,6 +25,41 @@ p {
     margin: .5rem 1rem;
 }
 
+.topbar-mobile {
+    background-color: black;
+    margin-bottom: 0;
+    list-style: none;
+    padding: .5rem 1rem;
+    color: white;
+}
+
+.topbar-mobile > li > a {
+    color: white;
+}
+
+.left-topbar,
+.right-topbar {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
+
+.left-topbar-item {
+    padding-right: .5rem;
+    margin-right: .5rem;
+    font-size: .8rem;
+}
+.left-topbar-border {
+    border-right: solid 1px rgba(255, 255, 255, .2);
+}
+
+.topbar-mobile > li > a  > .fab {
+    margin-right: .5rem;
+}
+
+.fa-moon {
+    margin: 0 .5rem;
+}
+
 .navbar-toggler {
     margin: .5rem 1rem;
     color: #464646;

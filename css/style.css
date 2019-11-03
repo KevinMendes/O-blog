@@ -149,7 +149,6 @@ footer div > p { /* écartement des P du footer entre eux */
 /** Catégorie */
 
 .footer_li--border{
-    list-style: none;
     border-bottom: solid 1px #393939;
     color: #CCCCCC;
   
@@ -158,6 +157,7 @@ footer div > p { /* écartement des P du footer entre eux */
 .footer_li{
     color: #CCCCCC;
     padding: 0.5rem 0;
+    list-style: none;
 }
 
 .footer_li a{
